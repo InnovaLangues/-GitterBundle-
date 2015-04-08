@@ -1,6 +1,6 @@
 <?php
 
-namespace Innova\Bundle\GitterBundle\DependencyInjection;
+namespace Innova\GitterBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
