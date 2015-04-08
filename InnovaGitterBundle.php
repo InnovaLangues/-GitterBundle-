@@ -1,6 +1,6 @@
 <?php
 
-namespace Innova\Bundle\GitterBundle;
+namespace Innova\GitterBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,6 +1,6 @@
 services:
     innova_gitter.manager:
-        class: Innova\Bundle\GitterBundle\Manager\GitterManager
+        class: Innova\GitterBundle\Manager\GitterManager
         arguments:
             - @file_locator
             - @kernel

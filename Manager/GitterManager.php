@@ -1,6 +1,6 @@
 <?php
 
-namespace Innova\Bundle\GitterBundle\Manager;
+namespace Innova\GitterBundle\Manager;
 
 class GitterManager
 {

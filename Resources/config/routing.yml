@@ -1,3 +1,0 @@
-innova_gitter_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: InnovaGitterBundle:Default:index }
