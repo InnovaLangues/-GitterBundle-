@@ -1,0 +1,35 @@
+{
+    "name": "innova/gitter-bundle",
+    "description" : "Gitter Bundle",
+    "type" : "symfony2-bundle",
+    "authors" : [{
+			"name" : "Arnaud Bey",
+			"email" : "arnaud.bey@u-grenoble3.fr"
+		}, {
+			"name" : "Axel Penin",
+			"email" : "axel.penin@u-grenoble3.fr"
+		}, {
+			"name" : "Eric Vincent",
+			"email" : "eric.vincent@u-grenoble3.fr"
+		}, {
+			"name" : "Donovan Tengblad",
+			"email" : "donovan.tengblad@u-grenoble3.fr"
+		}, {
+			"name" : "Patrick Guillou",
+			"email" : "patrick.guillou@u-grenoble3.fr"
+		}, {
+			"name" : "Nicolas Dufour",
+			"email" : "nicolas.dufour@u-grenoble3.fr"
+		}
+	],
+    "keywords": ["Innova", "Gitter"],
+    "homepage": "http://github.com/InnovaLangues/GitterBundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.1"
+    },
+    "autoload": {
+        "psr-0": { "Innova\\GitterBundle": "" }
+    },
+    "target-dir": "Innova/GitterBundle"
+}
