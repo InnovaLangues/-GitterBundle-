@@ -17,9 +17,11 @@ class GitterManager
 
     public function sendMessage($msg)
     {
-        $token = $this->kernel->getContainer()->getParameter('gitter_token');
-        $room = $this->kernel->getContainer()->getParameter('gitter_room');
+        $token  = $this->kernel->getContainer()->getParameter('gitter_token');
+        $room   = $this->kernel->getContainer()->getParameter('gitter_room');
+        $cmd    = escapeshellcmd("sh ".$this->script." ".escapeshellarg($msg)." ".escapeshellarg($room)." ".escapeshellarg($token));
+        shell_exec($cmd);
 
-        shell_exec("sh ".$this->script." ".$msg." ".$room." ".$token);
+        return $this;
     }
 }
