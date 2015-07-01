@@ -22,6 +22,6 @@ class GitterManager
         $cmd    = escapeshellcmd("sh ".$this->script." ".escapeshellarg($msg)." ".escapeshellarg($room)." ".escapeshellarg($token));
         shell_exec($cmd);
 
-        return $this;
+        return;
     }
 }
